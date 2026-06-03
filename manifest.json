@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ピン留め以外をすべて閉じる",
   "version": "1.0",
-  "description": "現在開いているウィンドウで、ピン留めされていないタブをすべて一括で閉じます。",
+  "description": "現在開いているウィンドウで、ピン留め（固定）されておらず、かつグループ化されていないタブをすべて一括で閉じます。",
   "permissions": [
     "tabs",
     "contextMenus"
