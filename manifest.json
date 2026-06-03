@@ -7,8 +7,18 @@
     "tabs",
     "contextMenus"
   ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "action": {
-    "default_title": "ピン留め以外のタブを閉じる"
+    "default_title": "ピン留め以外のタブを閉じる",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
   },
   "background": {
     "service_worker": "background.js"
