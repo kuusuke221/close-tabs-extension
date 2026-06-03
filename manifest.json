@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ピン留め以外をすべて閉じる",
+  "version": "1.0",
+  "description": "現在開いているウィンドウで、ピン留めされていないタブをすべて一括で閉じます。",
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ],
+  "action": {
+    "default_title": "ピン留め以外のタブを閉じる"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
